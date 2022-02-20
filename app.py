@@ -5,6 +5,7 @@ from apps import (
     census,
     cesium,
     deck,
+    demo,
     device_loc,
     gee,
     gee_datasets,
@@ -42,6 +43,7 @@ apps.add_app("Awesome GEE Community Datasets", gee_datasets.app)
 apps.add_app("Geolocation", device_loc.app)
 apps.add_app("Cesium 3D Map", cesium.app)
 apps.add_app("Plotly", plotly_maps.app)
+apps.add_app("Demo", demo.app)
 
 # The main app
 apps.run()
