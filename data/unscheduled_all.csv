@@ -1,0 +1,41 @@
+﻿ID,operation_type,operation_mode,doa,latitude,longitude,BMI,age_yr,wcc
+1,Appendicectomy,Laparoscopic,01/11/2021,56.46988,-2.86494,24,68.6,11
+2,Appendicectomy,Lap to open,01/11/2021,56.46747,-2.86508,38,38.6,14
+3,Appendicectomy,Laparoscopic,01/11/2021,56.4658,-2.86581,28,68.6,12
+4,Appendicectomy,Laparoscopic,01/11/2021,56.46549,-2.86831,22,38.5,18
+5,Appendicectomy,Laparoscopic,01/11/2021,56.47497,-2.92001,31,28.6,11
+6,Appendicectomy,Laparoscopic,01/11/2021,56.39142,-3.44529,32,48.6,13
+7,Appendicectomy,Laparoscopic,01/11/2021,56.39132,-3.44104,29,18.6,10
+8,Appendicectomy,Open,01/11/2021,56.70001,-2.84997,27,88.6,11
+9,Appendicectomy,Lap to open,01/11/2021,56.3967,-3.45104,20,68.5,17
+10,Cholecystectomy,Laparoscopic,02/11/2021,56.40196,-3.46316,29,42.9,16
+11,Cholecystectomy,Laparoscopic,02/11/2021,56.46747,-2.96003,44,54.4,15
+12,Cholecystectomy,Lap to open,02/11/2021,56.37269,-3.82823,31,27.2,14
+13,Appendicectomy,Laparoscopic,03/11/2021,56.37625,-3.83645,38,68.6,13
+14,Appendicectomy,Laparoscopic,03/11/2021,56.24347,-3.88365,28,38.6,13
+15,Appendicectomy,Laparoscopic,03/11/2021,56.24317,-3.88127,22,68.6,14
+16,Appendicectomy,Open,04/11/2021,56.42593,-2.97467,31,38.5,13
+17,Appendicectomy,Lap to open,04/11/2021,56.42272,-2.98548,32,28.6,15
+18,Duodenal ulcer repair,Laparoscopic,06/11/2021,56.44353,-2.93729,44,63.1,11
+19,Appendicectomy,Laparoscopic,06/11/2021,56.46737,-2.86608,32,68.6,10
+20,Appendicectomy,Open,05/11/2021,56.39242,-3.44629,29,38.6,10
+21,Duodenal ulcer repair,Lap to open,05/11/2021,56.46847,-2.96103,27,68.6,21
+22,Cholecystectomy,Laparoscopic,05/11/2021,56.39232,-3.44105,20,38.5,19
+23,Cholecystectomy,Laparoscopic,06/11/2021,56.47497,-2.92101,29,28.6,11
+24,Cholecystectomy,Lap to open,07/11/2021,56.37369,-3.82813,44,63.1,12
+25,Appendicectomy,Lap to open,07/11/2021,56.40196,-3.46316,31,18.6,13
+26,Cholecystectomy,Laparoscopic,07/11/2021,56.46747,-2.96003,32,88.6,13
+27,Cholecystectomy,Laparoscopic,07/11/2021,56.37269,-3.82821,29,68.5,14
+28,Cholecystectomy,Lap to open,08/11/2021,56.37625,-3.83641,27,42.9,13
+29,Appendicectomy,Laparoscopic,08/11/2021,56.24347,-3.88361,31,54.4,15
+30,Appendicectomy,Laparoscopic,08/11/2021,56.24317,-3.88129,32,27.2,11
+31,Appendicectomy,Laparoscopic,08/11/2021,56.40196,-3.46311,29,68.6,10
+32,Appendicectomy,Open,09/11/2021,56.46748,-2.96009,27,38.6,13
+33,Appendicectomy,Lap to open,09/11/2021,56.37271,-3.82819,20,68.6,13
+34,Duodenal ulcer repair,Laparoscopic,09/11/2021,56.37629,-3.83639,29,38.5,14
+35,Appendicectomy,Laparoscopic,10/11/2021,56.24341,-3.88357,44,28.6,13
+36,Appendicectomy,Open,10/11/2021,56.24311,-3.88133,31,63.1,15
+37,Duodenal ulcer repair,Lap to open,10/11/2021,56.42599,-2.97478,29,39.4,11
+38,Cholecystectomy,Laparoscopic,11/11/2021,56.42279,-2.98572,44,68.6,13
+39,Cholecystectomy,Lap to open,11/11/2021,56.44359,-2.93739,31,38.6,10
+40,Appendicectomy,Laparoscopic,11/11/2021,56.46731,-2.86628,32,68.6,11
