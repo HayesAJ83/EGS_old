@@ -7,7 +7,8 @@ def app():
 
     st.title("Add Points from XY")
 
-    sample_url = "https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/world_cities.csv"
+    sample_url = "https://raw.githubusercontent.com/HayesAJ83/EGS/main/data/unscheduled_all.csv"
+    #"https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/world_cities.csv"
     url = st.text_input("Enter URL:", sample_url)
     m = leafmap.Map(locate_control=True, plugin_LatLngPopup=False)
 
