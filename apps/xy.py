@@ -5,7 +5,7 @@ import streamlit as st
 
 def app():
 
-    st.title("Add Points from XY")
+    st.title("Surgical Admissions")
 
     sample_url = "https://raw.githubusercontent.com/HayesAJ83/EGS/main/data/unscheduled_all.csv"
     #"https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/world_cities.csv"
@@ -32,33 +32,30 @@ def app():
                     lat_index = columns.index(col)
 
             with row1_col1:
-                x = st.selectbox("Select longitude column", columns, lon_index)
+                x = st.selectbox("Longitude column", columns, lon_index)
 
             with row1_col2:
-                y = st.selectbox("Select latitude column", columns, lat_index)
-
-            with row1_col3:
-                popups = st.multiselect("Select popup columns", columns, columns)
+                y = st.selectbox("Latitude column", columns, lat_index)
 
             with row1_col4:
                 heatmap = st.checkbox("Add heatmap")
 
-            if heatmap:
-                with row1_col5:
-                    if "pop_max" in columns:
-                        index = columns.index("pop_max")
-                    else:
-                        index = 0
-                    heatmap_col = st.selectbox("Select heatmap column", columns, index)
-                    try:
-                        m.add_heatmap(df, y, x, heatmap_col)
-                    except:
-                        st.error("Please select a numeric column")
+            
+            with row1_col5:
+                if "age_yr" in columns:
+                    index = columns.index("age_yr")
+                else:
+                    index = 0
+                    heatmap_col = st.selectbox("Select heatmap data", columns, index)
+                try:
+                    m.add_heatmap(df, y, x, heatmap_col)
+                except:
+                    st.error("Please select a numeric column")
 
             try:
-                m.add_points_from_xy(df, x, y, popups)
+                m.add_points_from_xy(df, x, y)
             except:
-                st.error("Please select a numeric column")
+                st.error("")
 
         except Exception as e:
             st.error(e)
