@@ -14,13 +14,14 @@
 
 {"source":1,"target":2, "name":"GP -> SAU",   "value":6},
 
-{"source":2,"target":3,"value":2},
+{"source":2,"target":3, "name":"SAU -> HDU",  "value":2},
 {"source":2,"target":4,"value":4},
 {"source":2,"target":5,"value":9},
 
 {"source":3,"target":4,"value":2},
 {"source":3,"target":5,"value":2},
 
+{"source":4,"target":3,"value":1},
 {"source":4,"target":5,"value":6}
 
 ]}
