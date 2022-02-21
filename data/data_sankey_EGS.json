@@ -3,7 +3,7 @@
 {"node":0,"name":"A&E"},
 {"node":1,"name":"GP"},
 {"node":2,"name":"SAU"},
-{"node":3,"name":"pre-op HDU"},
+{"node":3,"name":"HDU preop"},
 {"node":4,"name":"Th 1"},
 {"node":5,"name":"Ward 9"}
 ],
@@ -21,6 +21,6 @@
 {"source":3,"target":4,"value":2},
 {"source":3,"target":5,"value":2},
 
-{"source":4,"target":5,"value":5}
+{"source":4,"target":5,"value":6}
 
 ]}
