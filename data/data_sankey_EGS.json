@@ -4,24 +4,18 @@
 {"node":1,"name":"GP"},
 {"node":2,"name":"Referals"},
 {"node":3,"name":"SAU"},
-{"node":4,"name":"preop-HDU"},
-{"node":5,"name":"Th 1"},
-{"node":6,"name":"Ward 9"}
+{"node":4,"name":"preop-HDU"}
+
 ],
 "links":[
 {"source":0,"target":3, "name":"A&E -> SAU",       "value":8},
 {"source":0,"target":4, "name":"A&E -> preop-HDU", "value":2},
-{"source":0,"target":5, "name":"A&E -> Th 1",      "value":1},
+
 
 {"source":1,"target":3, "name":"GP -> SAU",        "value":5},
 {"source":2,"target":3, "name":"Referals -> SAU",  "value":5},
 
-{"source":3,"target":4, "name":"SAU -> HDU",       "value":2},
-{"source":3,"target":5,"value":4},
-{"source":3,"target":6,"value":9},
+{"source":3,"target":4, "name":"SAU -> HDU",       "value":2}
 
-{"source":4,"target":5,"value":2},
-
-{"source":5,"target":6,"value":6}
 
 ]}
