@@ -2,21 +2,22 @@
 "nodes":[
 {"node":0,"name":"GP"},
 {"node":1,"name":"A&E"},
-{"node":2,"name":"SAU"},
-{"node":3,"name":"CEPOD"},
-{"node":4,"name":"Home"},
-{"node":5,"name":"HDU"}
 
+{"node":2,"name":"SAU"},
+
+{"node":5,"name":"HDU"},
+{"node":6,"name":"Trauma_Ward"},
+
+{"node":3,"name":"CEPOD"},
+
+{"node":4,"name":"Home"}
 
 ],
 "links":[
-{"source":0,"target":2,"value":1},
-{"source":1,"target":2,"value":1},
-{"source":1,"target":2,"value":1},
-{"source":0,"target":4,"value":1},
-{"source":2,"target":3,"value":1},
-{"source":2,"target":4,"value":1},
-{"source":3,"target":4,"value":1},
-{"source":3,"target":5,"value":1}
+
+{"source":0,"target":2,"value":9},
+{"source":1,"target":2,"value":10},
+{"source":1,"target":5,"value":1},
+{"source":1,"target":6,"value":1},
 
 ]}
