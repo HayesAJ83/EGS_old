@@ -1,9 +1,9 @@
 {
 "nodes":[
-{"node":0,"name":"node0/A&E"},
-{"node":1,"name":"node1/GP"},
-{"node":2,"name":"node2/Referals"},
-{"node":3,"name":"node3/"},
+{"node":0,"name":"node0"},
+{"node":1,"name":"node1"},
+{"node":2,"name":"node2"},
+{"node":3,"name":"node3"},
 {"node":4,"name":"node4"}
 ],
 "links":[
