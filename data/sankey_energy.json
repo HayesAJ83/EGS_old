@@ -24,7 +24,7 @@
                     "Intern", "Domes", "Inter",  "Natio",  "Mari",
                     "Nuclear",   "Oi",   "Oil",   "Oicc", "Othte",
                     "Pum",      "Sol",  "Smal",    "Sol", "Tidal",
-                    "Uoenergy", "Wind"
+                    "Uoenergy"
                 ],
                 "color": [
                     "rgba(31, 119, 180, 0.8)",
@@ -72,8 +72,7 @@
                     "rgba(44, 160, 44, 0.8)",
                     "rgba(214, 39, 40, 0.8)",
                     "rgba(148, 103, 189, 0.8)",
-                    "rgba(140, 86, 75, 0.8)",
-                    "rgba(127, 127, 127, 0.8)"]
+                    "rgba(140, 86, 75, 0.8)"
             },
             "link": {
                 "source": [
