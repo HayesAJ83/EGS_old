@@ -15,8 +15,8 @@
                     "color": "black",
                     "width": 0.5},
                 "label": [
-                    "0_A&E", "1_GP", "2_Wards", "3_SAU", "4_Theatre",
-                    "5_F"
+                    "0_A&E", "2_GP", "3_Wards", "4_D", "5_Theatre",
+                    "6_F"
                 ],
                 "color": [
                     "rgba(31, 119, 180, 0.8)",
