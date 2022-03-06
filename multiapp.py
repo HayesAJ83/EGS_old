@@ -67,6 +67,7 @@ class MultiApp:
         st.sidebar.info(
             """
             This web app is maintained by Alastair Hayes. You can follow me on social media:
-             [GitHub](https://github.com/HayesAJ83) | [LinkedIn](https://www.linkedin.com/in/alastair-hayes).
+            [LinkedIn](https://www.linkedin.com/in/alastair-hayes).
         """
         )
+        #[GitHub](https://github.com/HayesAJ83) |

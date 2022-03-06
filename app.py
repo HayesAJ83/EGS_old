@@ -3,7 +3,7 @@ from multiapp import MultiApp
 from apps import (
     home,
     plotly_maps,
-    wms,
+    gallbladder,
     xy,
 )
 
@@ -13,8 +13,8 @@ apps = MultiApp()
 
 # Add all your application here
 apps.add_app("Home", home.app)
-apps.add_app("Add Points from XY", xy.app)
-apps.add_app("Add Web Map Service (WMS)", wms.app)
+apps.add_app("Surgical Emergency Flow", xy.app)
+apps.add_app("Emergency Gallbladder", gallbladder.app)
 apps.add_app("Plotly", plotly_maps.app)
 
 # The main app
